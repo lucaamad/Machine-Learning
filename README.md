@@ -7,12 +7,12 @@
 - `Report.pdf` - detailed report
 - `Short_notebook_1.ipynb` – Jupyter notebook with the implementation of the first method  
 - `Short_notebook_2.ipynb` – Jupyter notebook with the implementation of the second method  
-- 'ais_train.csv' - training data       
-- 'ais_test.csv' - test input data 
-- 'schedules_to_may_2024.csv' - optional data that contains schedules for some vessels  
-- 'ports.csv' - optional data related to ports           
-- 'requirements.txt' - required Python packages and versions
-- 'vessels.csv' - optional data related to vessels 
+- `ais_train.csv` - training data       
+- `ais_test.csv` - test input data 
+- `schedules_to_may_2024.csv` - optional data that contains schedules for some vessels  
+- `ports.csv` - optional data related to ports           
+- `requirements.txt` - required Python packages and versions
+- `vessels.csv` - optional data related to vessels 
 
 ---
 
