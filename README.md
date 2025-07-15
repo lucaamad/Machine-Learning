@@ -16,7 +16,7 @@
 
 ## The project
 
-The objective of the project is to predict the latitude and longitude of a set of vessels at predetermined time instants, given the previous positions and some weather features. In order to evaluate the predictions, we use a score: namely, the weighted average of the mean geodetic distance in kilometers (using `geopy.distance.geodesic`) between the prediction and the ground truth point for each vessel. The weights adopted for the sum decrease over time.
+The objective of the project is to predict the latitude and longitude of a set of vessels at predetermined time instants, given the previous positions and some weather features. In order to evaluate the predictions, we use a score: the weighted average of the mean geodetic distance in kilometers (using `geopy.distance.geodesic`) between the prediction and the ground truth point for each vessel. The weights adopted for the sum decrease over time.
 
 The evaluation takes place in two stages:  
 First, we compare the performance of different models on a validation set composed of approximately 50% of the `ais_test.csv` data (the exact observations contained in this slice of the dataset are unknown). The evaluation on this dataset produces a *public score* (as it is called in the report).  
